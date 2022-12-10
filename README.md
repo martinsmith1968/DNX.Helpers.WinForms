@@ -1,2 +1,3 @@
-# DNX.GlobalHotKeys
-C# Global HotKeys for Windows Applications
+# DNX.Helpers.WinForms
+
+.NET Extensions and helpers for WinForms applications

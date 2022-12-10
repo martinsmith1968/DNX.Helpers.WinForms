@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Description>.NET Extensions and helpers for WinForms applications</Description>
+    <Authors>Martin Smith</Authors>
+    <Copyright>Copyright © 2020 DNX Solutions Ltd</Copyright>
+    <PackageLicenseFile>licence.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/martinsmith1968/DNX.Helpers.WinForms</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIcon>favicon-32x32.png</PackageIcon>
+    <PackageIconUrl>https://raw.githubusercontent.com/martinsmith1968/DNX.Helpers.WinForms/master/images/favicon-32x32.png</PackageIconUrl>
+    <PackageTags>DNX helpers extensions string array linq</PackageTags>
+    <PackageReleaseNotes>Interpolation to a working version and some preparation for moving to .NET Standard</PackageReleaseNotes>
+    <Version>1.0</Version>
+    <AssemblyVersion>1.0</AssemblyVersion>
+    <FileVersion>1.0</FileVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\licence.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\images\favicon-32x32.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DNX.Helpers" Version="2.1.0" />
+  </ItemGroup>
+</Project>
